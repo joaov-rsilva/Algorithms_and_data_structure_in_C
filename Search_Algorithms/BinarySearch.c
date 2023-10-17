@@ -6,7 +6,7 @@
 #define MAX_VECTOR_SIZE 100
 #define RANGE_OF_RANDOM_VALUES 100
 
-void FSelectSort(int a[]){
+void FBubbleSort(int a[]){
     int swap;
     for(int i = 0; i < (MAX_VECTOR_SIZE - 1); i++){
        for(int j = (i+1); j < MAX_VECTOR_SIZE; j++){
@@ -29,8 +29,8 @@ int main(){
     }                                                      //pseudoaleatórios
 
     //Para que seja possivel realizarmos a busca binária primeiro temos de ordenar o vetor
-    //onde será realizado a busca, para tal fiz o uso do algoritmo de ordenação Select Sort
-    FSelectSort(ListOfValues);
+    //onde será realizado a busca, para tal fiz o uso do algoritmo de ordenação Bubble Sort
+    FBubbleSort(ListOfValues);
 
     //Após ralizarmos a ordenção podemos começar a busca binária
 
