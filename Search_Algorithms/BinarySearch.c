@@ -42,8 +42,8 @@ int main(){
     while((Flag == 0) && (Min <= Max)){
         //Aqui encontramos o meio do vetor
         Middle = (int)((Min + Max)/2);
-        //Logo em seguida verificamos se o vetor na posição Middle (Meio) é igual ao valor de busca.
-        //Caso sim, encerramos o laço de repetição aqui.
+        //Logo em seguida verificamos se o vetor na posição Middle (Meio) é igual ao valor de busca
+        //Caso sim, encerramos o laço de repetição aqui, uma vez que encontramos o valor desejado
         if(ListOfValues[Middle] == SearchValue){
             Flag = 1;
             break;
